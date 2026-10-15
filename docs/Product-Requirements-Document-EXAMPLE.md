@@ -53,11 +53,13 @@ Listez et décrivez les parties prenantes impliquées dans le projet en précisa
 
 Détaillez les fonctionnalités spécifiques que le produit doit posséder. pour décrire la façon dont les utilisateurs interagiront avec le produit et ce que le produit doit accomplir.
 
-| # | EXIGENCE | EXIGENCE PARENT | RELATION |
-|---|---|---|---|
-| F1 | signer présence | | |
-| F2 | sélectionner formation | F1 | containment |
-| F3 | s'authentifier | F1 | deriveReqt |
+| # | EXIGENCE | EXIGENCE PARENT | RELATION | package |
+|---|---|---|---|---|
+| F1 | cloturer formation | | | core |
+| F2 | signer présences | F1 | containment | core |
+| F3 | compléter l' évaluation | F1 | containment | core |
+| F4 | sélectionner formation | core | deriveReqt | context |
+| F5 | s'authentifier | F4 | deriveReqt | context |
 
 ---
 
@@ -65,9 +67,9 @@ Détaillez les fonctionnalités spécifiques que le produit doit posséder. pour
 
 Traitez les aspects au-delà des fonctionnalités spécifiques, tels que la performance, la sécurité, la scalabilité, l'utilisabilité, la conformité et toute contrainte technique.
 
-| # | EXIGENCE | EXIGENCE PARENT | CATEGORIE | RELATION |
-|---|---|---|---|---|
-| NF1 | utiliser un widget D&D | F1 | utilisability | containment |
+| # | EXIGENCE | EXIGENCE PARENT | CATEGORIE | RELATION | PACKAGE |
+|---|---|---|---|---|---|
+| NF1 | utiliser un widget D&D | F2 | utilisability | deriveReqt | core |
 
 ---
 

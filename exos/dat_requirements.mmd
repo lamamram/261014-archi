@@ -1,17 +1,27 @@
 requirementDiagram
 
-functionalRequirement "signer présence" {
+functionalRequirement "cloturer formation" {
     id: F1
-    text: "signer présence"
+    text: "cloturer formation"
+}
+
+functionalRequirement "signer présences" {
+    id: F2
+    text: "signer présences"
+}
+
+functionalRequirement "compléter l'évaluation" {
+    id: F3
+    text: "compléter l'évaluation"
 }
 
 functionalRequirement "sélectionner formation" {
-    id: F2
+    id: F4
     text: "sélectionner formation"
 }
 
 functionalRequirement "s'authentifier" {
-    id: F3
+    id: F5
     text: "s'authentifier"
 }
 
@@ -20,16 +30,22 @@ interfaceRequirement "utiliser un widget D&D" {
     text: "utiliser un widget D&D"
 }
 
-"signer présence" - contains -> "sélectionner formation"
-"signer présence" - derives -> "s'authentifier"
-"signer présence" - contains -> "utiliser un widget D&D"
+"cloturer formation" - contains -> "signer présences"
+"cloturer formation" - contains -> "compléter l'évaluation"
+"cloturer formation" - derives -> "sélectionner formation"
+"signer présences" - derives -> "sélectionner formation"
+"compléter l'évaluation" - derives -> "sélectionner formation"
+"sélectionner formation" - derives -> "s'authentifier"
+"signer présences" - derives -> "utiliser un widget D&D"
 
 classDef simpleExigence fill:#e0e0e0,stroke:#616161,color:#000
 classDef utilisability fill:#a5d6a7,stroke:#2e7d32,color:#000
 classDef availability fill:#90caf9,stroke:#1565c0,color:#000
 classDef scalability fill:#ffcc80,stroke:#e65100,color:#000
 
-class "signer présence" simpleExigence
+class "cloturer formation" simpleExigence
+class "signer présences" simpleExigence
+class "compléter l'évaluation" simpleExigence
 class "sélectionner formation" simpleExigence
 class "s'authentifier" simpleExigence
 class "utiliser un widget D&D" utilisability
