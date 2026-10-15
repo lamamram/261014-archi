@@ -55,9 +55,9 @@ Détaillez les fonctionnalités spécifiques que le produit doit posséder. pour
 
 | # | EXIGENCE | EXIGENCE PARENT | RELATION |
 |---|---|---|---|
-| F1 | s'authentifier | | |
+| F1 | signer présence | | |
 | F2 | sélectionner formation | F1 | containment |
-| F3 | créer la signature | F1 | containment |
+| F3 | s'authentifier | F1 | deriveReqt |
 
 ---
 
@@ -67,7 +67,7 @@ Traitez les aspects au-delà des fonctionnalités spécifiques, tels que la perf
 
 | # | EXIGENCE | EXIGENCE PARENT | CATEGORIE | RELATION |
 |---|---|---|---|---|
-| NF1 | utiliser un widget D&D | F3 | utilisability | containment |
+| NF1 | utiliser un widget D&D | F1 | utilisability | containment |
 
 ---
 

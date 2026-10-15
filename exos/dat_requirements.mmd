@@ -1,0 +1,35 @@
+requirementDiagram
+
+functionalRequirement "signer présence" {
+    id: F1
+    text: "signer présence"
+}
+
+functionalRequirement "sélectionner formation" {
+    id: F2
+    text: "sélectionner formation"
+}
+
+functionalRequirement "s'authentifier" {
+    id: F3
+    text: "s'authentifier"
+}
+
+interfaceRequirement "utiliser un widget D&D" {
+    id: NF1
+    text: "utiliser un widget D&D"
+}
+
+"signer présence" - contains -> "sélectionner formation"
+"signer présence" - derives -> "s'authentifier"
+"signer présence" - contains -> "utiliser un widget D&D"
+
+classDef simpleExigence fill:#e0e0e0,stroke:#616161,color:#000
+classDef utilisability fill:#a5d6a7,stroke:#2e7d32,color:#000
+classDef availability fill:#90caf9,stroke:#1565c0,color:#000
+classDef scalability fill:#ffcc80,stroke:#e65100,color:#000
+
+class "signer présence" simpleExigence
+class "sélectionner formation" simpleExigence
+class "s'authentifier" simpleExigence
+class "utiliser un widget D&D" utilisability

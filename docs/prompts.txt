@@ -1,0 +1,15 @@
+exemple de prompt de génération de diagrammes d'exigence
+
+à partir d'un PRD et le vocabulaire du diagramme.
+
+génère un diagramme d'exigences :
+sources (requirementDiagram, https://mermaid.js.org/syntax/requirementDiagram.html) 
+au format mermaid 
+à partir des sections Exigences Fonctionnelles et Exigences Non Fonctionnelles 
+du document <file_path>, 
+avec 
+   - le nom des exigences en tant que nom de requirements, 
+   - les attributs suivants (id, texte) 
+   - et la catégorie en tant que stéréotype, 
+ajoute un code couleur pour les catégories (utilisability, availability, scalabality, simple exigence) 
+dans exos\<output>.mmd
