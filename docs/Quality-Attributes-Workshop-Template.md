@@ -3,14 +3,14 @@
 ### Étape 1 : Identifier les Attributs de Qualité Prioritaires
 
 
-• **Disponibilité (Availability)** : La capacité du système à rester opérationnel et à être utilisé en cas de besoin, souvent mesurée par le taux de disponibilité (ex. : 99,99 %).
-• **Performance et Efficacité (Performance Efficiency)** : La rapidité de traitement (temps de réponse, throughput/débit, latence) et la bonne gestion des ressources matérielles sous charge.
+* **Disponibilité (Availability)** : La capacité du système à rester opérationnel et à être utilisé en cas de besoin, souvent mesurée par le taux de disponibilité (ex. : 99,99 %).
+* **Performance et Efficacité (Performance Efficiency)** : La rapidité de traitement (temps de réponse, throughput/débit, latence) et la bonne gestion des ressources matérielles sous charge.
 
-• **Sécurité (Security)** : L'aptitude du système à protéger les données et les services contre les accès non autorisés, tout en garantissant la confidentialité et l'intégrité.
-• **Maintenabilité (Maintainability)** : La facilité avec laquelle un système peut être modifié, corrigé ou amélioré pour s'adapter aux évolutions.
-• **Extensibilité et Scalabilité (Scalability)** : La capacité à faire face à une augmentation de la charge (en ajoutant des ressources) sans réécrire le code de base.
-• **Testabilité (Testability)** : La facilité à concevoir des tests pour valider que le système fonctionne correctement et détecte les anomalies.
-• **Ergonomie et Utilisabilité (Usability)** : La simplicité d'apprentissage et d'utilisation du produit pour l'utilisateur final
+* **Sécurité (Security)** : L'aptitude du système à protéger les données et les services contre les accès non autorisés, tout en garantissant la confidentialité et l'intégrité.
+* **Maintenabilité (Maintainability)** : La facilité avec laquelle un système peut être modifié, corrigé ou amélioré pour s'adapter aux évolutions.
+* **Extensibilité et Scalabilité (Scalability)** : La capacité à faire face à une augmentation de la charge (en ajoutant des ressources) sans réécrire le code de base.
+* **Testabilité (Testability)** : La facilité à concevoir des tests pour valider que le système fonctionne correctement et détecte les anomalies.
+* **Ergonomie et Utilisabilité (Usability)** : La simplicité d'apprentissage et d'utilisation du produit pour l'utilisateur final
 
 
 **Méthode** : Quality Attribute Workshop (QAW): Atelier avec les parties prenantes
